@@ -146,7 +146,7 @@ a{
     border: 1px solid black;
     border-radius: 20em;
     height: 300px;
-    background-image: url(ramonfalcon.gif);
+    background-image: url(imagenes/ramonfalcon.gif);
     margin: 1em;
 }
 
@@ -155,7 +155,7 @@ a{
     border: 1px solid black;
     border-radius: 20em;
     height: 300px;
-    background-image: url(utn2.gif);
+    background-image: url(imagenes/utn2.gif);
     margin: 1em;
 }
 
@@ -173,7 +173,7 @@ a{
     border: 1px solid black;
     border-radius: 20em;
     height: 300px;
-    background-image: url(programar.gif);
+    background-image: url(imagenes/programar.gif);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 1em;
@@ -189,7 +189,7 @@ a{
     border: 1px solid black;
     border-radius: 20em;
     height: 300px;
-    background-image: url(coderHouse.gif);
+    background-image: url(imagenes/coderHouse.gif);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 1em;
@@ -211,7 +211,7 @@ li{
 }
 
 footer div{
-    background-image: url(footer.gif);
+    background-image: url(imagenes/footer.gif);
     align-items: center;
     text-align: center;
 }
