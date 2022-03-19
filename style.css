@@ -1,0 +1,217 @@
+body{
+    font-style: italic;
+    background-color: rgb(183, 197, 197);
+}
+
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1em;
+}
+
+li{
+    list-style:square;
+}
+.contenedor{
+    max-width: 1400px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+header .contenedor{
+    height: 6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+header img{
+    height: 5em;
+}
+
+.barraMenu{
+    margin :2em;
+}
+
+a{
+    margin: 1em;
+    border-color: lightblue;
+    border-style: solid;
+    background-color: lightblue;
+    border-radius: 2em;
+    padding:0.5em;
+    color: black;
+    box-shadow: 10px 1px 1px ;
+}
+
+#sobreMi{
+    margin-top: 6em;
+}
+
+#sobreMi .contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    margin-top: 5em;
+}
+
+#sobreMi img{
+    object-fit: cover;
+    height: 650px;
+    width: 35em;
+    border: 0.25em solid black;
+    border-radius: 40em;
+    margin: 1em;
+    margin-top: 5em;
+}
+
+.presentacion{
+    align-items: center;
+    text-justify:auto;
+    position:center;
+}
+
+.titulo{
+    text-align: center;
+    align-items: center;
+    font-size: 3em;
+    margin: auto;
+    position: relative;
+    bottom: -60px;
+}
+
+.contenido{
+    position: relative;
+    bottom: -90px;
+    margin: 2em;
+}
+
+
+.subtitulo{
+    font-size: 3em;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 0px 0px 1px;
+    border: 1px solid blueviolet;
+    
+}
+
+.contenedorDeTitulo{
+    align-items: center;
+    text-align: center;
+    height: 7em;
+    padding: 5em;
+}
+
+#Educacion .contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 600px;
+    text-align: center;
+}
+
+.carta {
+    border: 0.5em solid blueviolet;
+    margin: 0.5em;
+    border-radius: 3em;
+    align-items: center;
+    text-align: center;
+}
+
+.carta h2{
+    position: relative;
+}
+
+.imagenDeEscuela{
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 20em;
+    height: 300px;
+    background-image: url(ramonfalcon.gif);
+    margin: 1em;
+}
+
+.imagenDeEscuela2{
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 20em;
+    height: 300px;
+    background-image: url(utn2.gif);
+    margin: 1em;
+}
+
+#cursoExtra .subtitulo{
+    margin:3em
+}
+
+.cartaDeCursoExtra{
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+
+.contenedorDeImagen{
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 20em;
+    height: 300px;
+    background-image: url(programar.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1em;
+}
+
+.contenedorDeTexto{
+    align-items: center;
+    text-align: center;
+}
+
+.contenedorDeImagenCoder{
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 20em;
+    height: 300px;
+    background-image: url(coderHouse.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1em;
+}
+
+#habilidades{
+    align-items: center;
+    text-align: center;
+}
+li{
+    list-style: none;
+    font-size: 2em;
+    margin: 1em;
+}
+
+#idiomas{
+    align-items: center;
+    text-align: center;
+}
+
+footer div{
+    background-image: url(footer.gif);
+    align-items: center;
+    text-align: center;
+}
